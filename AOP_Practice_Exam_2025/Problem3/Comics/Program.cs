@@ -1,14 +1,41 @@
 ﻿using System.Globalization;
 using Comics.Models;
 using CsvHelper;
+using CsvHelper.Configuration;
 
 var comics = new List<Comic>();
 
-// Read CSV file
-using (var reader = new StreamReader("data/comics.csv"))
-using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+try
 {
-    comics = csv.GetRecords<Comic>().ToList();
+    // Read CSV file
+    using (var reader = new StreamReader("data/comics.csv"))
+    using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)
+    {
+        HeaderValidated = null, // Disable header validation
+        MissingFieldFound = null // Disable missing field errors
+    }))
+    {
+        // Validate headers
+        csv.Read();
+        csv.ReadHeader();
+        var headers = csv.HeaderRecord;
+        var requiredHeaders = new[] { "Title", "Author", "Year" };
+        
+        foreach (var header in requiredHeaders)
+        {
+            if (!headers.Contains(header))
+            {
+                throw new Exception($"Missing required header: {header}");
+            }
+        }
+
+        comics = csv.GetRecords<Comic>().ToList();
+    }
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Error reading CSV file: {ex.Message}");
+    return;
 }
 
 // Query 1: Comics before 2000
