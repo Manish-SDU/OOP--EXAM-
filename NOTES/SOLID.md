@@ -16,7 +16,7 @@ public class User
     public void SendEmail(string message) => Console.WriteLine($"Sending email: {message}");
 }
 
-// Following SRP
+// Following the SRP
 public class User
 {
     public void SaveToDatabase() => Console.WriteLine("Saving user to database...");
