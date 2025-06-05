@@ -4,6 +4,12 @@ This README contains commands and packages for various .NET development scenario
 
 ## NuGet Packages
 
+### Terminal
+
+```bash
+dotnet new console -n App --git
+```
+
 ### Unit Testing
 
 ```bash
