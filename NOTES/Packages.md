@@ -4,10 +4,10 @@ This README contains commands and packages for various .NET development scenario
 
 ## NuGet Packages
 
-### Terminal
+### Terminal - Create a folder first with the .gitignore inside
 
 ```bash
-dotnet new console -n App --git
+dotnet new console
 ```
 
 ### Unit Testing
