@@ -6,7 +6,6 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Circle.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
-        Icon="/Assets/avalonia-logo.ico"
         Title="Circle">
 
     <Design.DataContext>
@@ -15,4 +14,25 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
+    <Grid RowDefinitions="*, Auto" Margin="20">
+        <Border Grid.Row="0" Background="LightGray">
+            <Ellipse Width="{Binding Diameter}" 
+                     Height="{Binding Diameter}" 
+                     Fill="{Binding Color}"/>
+        </Border>
+
+        <StackPanel Grid.Row="1" Spacing="10" Margin="0,10,0,0">
+            <Slider Value="{Binding Diameter}"
+                    Minimum="50"
+                    Maximum="500"/>
+            
+            <ComboBox ItemsSource="{Binding Colors}"
+                      SelectedItem="{Binding Color}"
+                      HorizontalAlignment="Stretch"/>
+            
+            <Button Command="{Binding ResetCommand}"
+                    Content="Reset"
+                    HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
 </Window>
