@@ -7,7 +7,7 @@
 **How to identify violations:** Look for classes that perform multiple unrelated tasks. For example, a `User` class that handles both user authentication and generating PDF reports.
 
 ```csharp
-// Violation of SRP
+// Violation of the SRP
 public class User
 {
     public void SaveToDatabase() => Console.WriteLine("Saving user to database...");
