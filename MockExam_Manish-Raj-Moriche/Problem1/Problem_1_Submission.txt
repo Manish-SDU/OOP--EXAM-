@@ -1,0 +1,34 @@
+1.1 This code presents a restaurant ordering system where customers 
+select menu items, apply different discounts and receive a receipt 
+with the final total at the end of the program execution.
+
+--------------
+
+1.2 Polymorphism is presented in this project through 
+the IDiscount interface and its different implementations 
+(NoDiscount, StudentDiscount, SeniorDiscount, and HolidayDiscount).
+
+The (Order) class uses the (IDiscount) interface 
+to accept any discount type via its constructor.
+
+Purpose: This allows flexibility and extensibility, 
+enabling new discounts to be added without modifying existing code, 
+following the Open-Closed Principle.
+
+--------------
+
+1.3 Properties in the (MenuItem) class 
+"Name" and "Price" provide controlled access to the class's data. 
+They are set up with public getters and private setters to allow reading 
+from outside the class while restricting modification, 
+ensuring data integrity after object creation.
+
+--------------
+
+1.4 The Strategy Pattern is used in the discount system through 
+the IDiscount interface (NoDiscount, StudentDiscount, 
+SeniorDiscount, and HolidayDiscount). The Order class acts as the context, 
+accepting an IDiscount object via its constructor to apply the right discount. 
+
+This pattern allows flexibility, runtime discount changes 
+and easy addition of new types without modifying existing code.

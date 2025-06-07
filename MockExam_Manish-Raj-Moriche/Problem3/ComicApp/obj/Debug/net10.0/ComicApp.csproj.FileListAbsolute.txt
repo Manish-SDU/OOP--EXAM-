@@ -1,0 +1,17 @@
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\bin\Debug\net10.0\ComicApp.exe
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\bin\Debug\net10.0\ComicApp.deps.json
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\bin\Debug\net10.0\ComicApp.runtimeconfig.json
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\bin\Debug\net10.0\ComicApp.dll
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\bin\Debug\net10.0\ComicApp.pdb
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\bin\Debug\net10.0\CsvHelper.dll
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\obj\Debug\net10.0\ComicApp.csproj.AssemblyReference.cache
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\obj\Debug\net10.0\ComicApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\obj\Debug\net10.0\ComicApp.AssemblyInfoInputs.cache
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\obj\Debug\net10.0\ComicApp.AssemblyInfo.cs
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\obj\Debug\net10.0\ComicApp.csproj.CoreCompileInputs.cache
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\obj\Debug\net10.0\ComicApp.csproj.Up2Date
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\obj\Debug\net10.0\ComicApp.dll
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\obj\Debug\net10.0\refint\ComicApp.dll
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\obj\Debug\net10.0\ComicApp.pdb
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\obj\Debug\net10.0\ComicApp.genruntimeconfig.cache
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicApp\obj\Debug\net10.0\ref\ComicApp.dll

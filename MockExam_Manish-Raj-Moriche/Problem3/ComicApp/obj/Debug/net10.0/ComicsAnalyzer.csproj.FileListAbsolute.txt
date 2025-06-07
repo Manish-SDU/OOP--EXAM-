@@ -1,0 +1,17 @@
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\bin\Debug\net10.0\ComicsAnalyzer.exe
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\bin\Debug\net10.0\ComicsAnalyzer.deps.json
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\bin\Debug\net10.0\ComicsAnalyzer.runtimeconfig.json
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\bin\Debug\net10.0\ComicsAnalyzer.dll
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\bin\Debug\net10.0\ComicsAnalyzer.pdb
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\bin\Debug\net10.0\CsvHelper.dll
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\obj\Debug\net10.0\ComicsAnalyzer.csproj.AssemblyReference.cache
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\obj\Debug\net10.0\ComicsAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\obj\Debug\net10.0\ComicsAnalyzer.AssemblyInfoInputs.cache
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\obj\Debug\net10.0\ComicsAnalyzer.AssemblyInfo.cs
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\obj\Debug\net10.0\ComicsAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\obj\Debug\net10.0\ComicsAn.9E4387F3.Up2Date
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\obj\Debug\net10.0\ComicsAnalyzer.dll
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\obj\Debug\net10.0\refint\ComicsAnalyzer.dll
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\obj\Debug\net10.0\ComicsAnalyzer.pdb
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\obj\Debug\net10.0\ComicsAnalyzer.genruntimeconfig.cache
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem3\ComicsAnalyzer\obj\Debug\net10.0\ref\ComicsAnalyzer.dll

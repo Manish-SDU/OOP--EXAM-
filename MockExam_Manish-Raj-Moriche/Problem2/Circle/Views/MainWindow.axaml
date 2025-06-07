@@ -1,0 +1,55 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Circle.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Circle.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Circle">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+        
+    <!-- My ANSWER CODE starts here  -->
+    <Grid RowDefinitions="Auto,*,Auto" Margin="20">
+
+        <!-- Question 1: Circle Display Area -->
+        <Border Grid.Row="1" 
+                Margin="0,20">
+            <Ellipse Width="{Binding Diameter}"
+                     Height="{Binding Diameter}"
+                     Fill="{Binding Color}"
+                     HorizontalAlignment="Center"
+                     VerticalAlignment="Center"/>
+        </Border>
+
+        <!-- Question 2 and 3: Controls Panel with Slider (min 50, max 500) and ComboBox for colors -->
+        <StackPanel Grid.Row="0" Spacing="10">
+            <DockPanel>
+                <TextBlock Text="Size:" VerticalAlignment="Center" Width="50"/>
+                <Slider Value="{Binding Diameter}" 
+                        Minimum="50" 
+                        Maximum="500"/>
+            </DockPanel>
+            
+            <DockPanel>
+                <TextBlock Text="Color:" VerticalAlignment="Center" Width="50"/>
+                <ComboBox ItemsSource="{Binding Colors}"
+                         SelectedItem="{Binding Color}"
+                         HorizontalAlignment="Stretch"/>
+            </DockPanel>
+            
+            <!-- Question 4: Reset button -->
+            <Button Command="{Binding ResetCommand}"
+                    Content="Reset"
+                    HorizontalAlignment="Right"
+                    Padding="20,10"
+                    FontSize="16"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\bin\Debug\net9.0\RestaurantSystem.exe
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\bin\Debug\net9.0\RestaurantSystem.deps.json
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\bin\Debug\net9.0\RestaurantSystem.runtimeconfig.json
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\bin\Debug\net9.0\RestaurantSystem.dll
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\bin\Debug\net9.0\RestaurantSystem.pdb
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\obj\Debug\net9.0\RestaurantSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\obj\Debug\net9.0\RestaurantSystem.AssemblyInfoInputs.cache
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\obj\Debug\net9.0\RestaurantSystem.AssemblyInfo.cs
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\obj\Debug\net9.0\RestaurantSystem.csproj.CoreCompileInputs.cache
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\obj\Debug\net9.0\RestaurantSystem.dll
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\obj\Debug\net9.0\refint\RestaurantSystem.dll
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\obj\Debug\net9.0\RestaurantSystem.pdb
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\obj\Debug\net9.0\RestaurantSystem.genruntimeconfig.cache
+C:\Users\manis\Downloads\AOP_Practice_Exam_2025\Problem1\RestaurantSystem\obj\Debug\net9.0\ref\RestaurantSystem.dll
