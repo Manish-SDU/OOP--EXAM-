@@ -2,31 +2,62 @@ namespace Assignment2;
 
 public class Helpers
 {
-    /*
-     *
-     * Implement the below method so the contents of the object
-     * are written to the file Product.txt, in the root of the project.
-     * if the file already exists overwrite it.
-     * make sure to close the writer when finished.
-     */
-    public static void WriteToFile(IList<Product> products) {
-        throw new NotImplementedException("Not implemented yet!");
+    public static void WriteToFile(IList<Product> products)
+    {
+        try
+        {
+            using (StreamWriter writer = new StreamWriter("Products.txt"))
+            {
+                foreach (var product in products)
+                {
+                    writer.WriteLine(product.ToString());
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error writing to file: {ex.Message}");
+        }
     }
     
-    /*
-      This method takes the name of the file as its argument and then print the contents of the file to the
-      users screen.
-     */
     public static void ReadFromFile(string fileName)
     {
-        throw new NotImplementedException("Not implemented yet!");
+        try
+        {
+            using (StreamReader reader = new StreamReader(fileName))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    Console.WriteLine(line);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading file: {ex.Message}");
+        }
     }
 
-    /*
-      This method takes the name of the file as its argument and only prints
-      out the items which have been shipped.
-     */
-    public static void CheckHasBeenShipped(String fileName) {
-        throw new NotImplementedException("Not implemented yet!");
+    public static void CheckHasBeenShipped(String fileName)
+    {
+        try
+        {
+            using (StreamReader reader = new StreamReader(fileName))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    if (line.Contains("shipped=True"))
+                    {
+                        Console.WriteLine(line);
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error checking shipped items: {ex.Message}");
+        }
     }
 }
