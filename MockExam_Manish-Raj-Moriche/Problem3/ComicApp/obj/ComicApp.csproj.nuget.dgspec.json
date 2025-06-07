@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manis\\Downloads\\AOP_Practice_Exam_2025\\Problem3\\ComicApp\\ComicApp.csproj": {}
+    "C:\\Users\\manis\\OneDrive\\Desktop\\OOP--EXAM-\\MockExam_Manish-Raj-Moriche\\Problem3\\ComicApp\\ComicApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manis\\Downloads\\AOP_Practice_Exam_2025\\Problem3\\ComicApp\\ComicApp.csproj": {
+    "C:\\Users\\manis\\OneDrive\\Desktop\\OOP--EXAM-\\MockExam_Manish-Raj-Moriche\\Problem3\\ComicApp\\ComicApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manis\\Downloads\\AOP_Practice_Exam_2025\\Problem3\\ComicApp\\ComicApp.csproj",
+        "projectUniqueName": "C:\\Users\\manis\\OneDrive\\Desktop\\OOP--EXAM-\\MockExam_Manish-Raj-Moriche\\Problem3\\ComicApp\\ComicApp.csproj",
         "projectName": "ComicApp",
-        "projectPath": "C:\\Users\\manis\\Downloads\\AOP_Practice_Exam_2025\\Problem3\\ComicApp\\ComicApp.csproj",
+        "projectPath": "C:\\Users\\manis\\OneDrive\\Desktop\\OOP--EXAM-\\MockExam_Manish-Raj-Moriche\\Problem3\\ComicApp\\ComicApp.csproj",
         "packagesPath": "C:\\Users\\manis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manis\\Downloads\\AOP_Practice_Exam_2025\\Problem3\\ComicApp\\obj\\",
+        "outputPath": "C:\\Users\\manis\\OneDrive\\Desktop\\OOP--EXAM-\\MockExam_Manish-Raj-Moriche\\Problem3\\ComicApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manis\\AppData\\Roaming\\NuGet\\NuGet.Config"

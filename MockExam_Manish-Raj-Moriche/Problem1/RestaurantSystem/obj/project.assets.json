@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\manis\\Downloads\\AOP_Practice_Exam_2025\\Problem1\\RestaurantSystem\\RestaurantSystem.csproj",
+      "projectUniqueName": "C:\\Users\\manis\\OneDrive\\Desktop\\OOP--EXAM-\\MockExam_Manish-Raj-Moriche\\Problem1\\RestaurantSystem\\RestaurantSystem.csproj",
       "projectName": "RestaurantSystem",
-      "projectPath": "C:\\Users\\manis\\Downloads\\AOP_Practice_Exam_2025\\Problem1\\RestaurantSystem\\RestaurantSystem.csproj",
+      "projectPath": "C:\\Users\\manis\\OneDrive\\Desktop\\OOP--EXAM-\\MockExam_Manish-Raj-Moriche\\Problem1\\RestaurantSystem\\RestaurantSystem.csproj",
       "packagesPath": "C:\\Users\\manis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\manis\\Downloads\\AOP_Practice_Exam_2025\\Problem1\\RestaurantSystem\\obj\\",
+      "outputPath": "C:\\Users\\manis\\OneDrive\\Desktop\\OOP--EXAM-\\MockExam_Manish-Raj-Moriche\\Problem1\\RestaurantSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\manis\\AppData\\Roaming\\NuGet\\NuGet.Config"
